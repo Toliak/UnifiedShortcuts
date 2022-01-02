@@ -1,6 +1,6 @@
-# UniformShortcuts
+# UnifiedShortcuts
 
-Uniformed keyboard Shortcuts table for VSCode and PyCharm
+Unified keyboard Shortcuts table for VSCode and PyCharm
 
 # Shortcuts draft table
 
@@ -19,23 +19,23 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 
 | Name                               | Key binding           | VSCode | IDEA | Vim         |
 | ---------------------------------- | --------------------- | ------ | ---- | ----------- |
-| New Window                         | `Ctrl+Shift+N`        | ✅     | ⛔   | ✖           |
-| Close Application                  | `Alt+F4`              | ✅     | ⛔   | `:qa`       |
-| **S**ettings                       | `Ctrl+Alt+S`          | ✅     | ⛔   | ✖           |
-| Zoom Reset                         | `Ctrl+B Ctrl+Shift+0` | ✅     | ⛔   | ✖           |
-| Zoom In                            | `Ctrl+B Ctrl+Shift+=` | ✅     | ⛔   | ✖           |
-| Zoom Out                           | `Ctrl+B Ctrl+Shift+-` | ✅     | ⛔   | ✖           |
+| New Window                         | `Ctrl+Shift+N`        | ✅     | ✖   | ✖           |
+| Close Application                  | `Alt+F4`              | ✅     | ✅   | `:qa`       |
+| **S**ettings                       | `Ctrl+Alt+S`          | ✅     | ✅   | ✖           |
+| Zoom Reset                         | `Ctrl+B Ctrl+Shift+9` | ✅     | ✅   | ✖           |
+| Zoom In                            | `Ctrl+B Ctrl+Shift+=` | ✅     | ✅   | ✖           |
+| Zoom Out                           | `Ctrl+B Ctrl+Shift+-` | ✅     | ✅   | ✖           |
 | **Q**uick Documentation            | `Ctrl+Q`              | ⛔     | ✅   | ✖           |
-| Show All Commands                  | `F1`                  | ✅     | ⛔   | ✖           |
-| Focus Breadcrumbs                  | `Ctrl+B .`            | ✅     | ⛔   | ✖           |
-| Fold all                           | `Ctrl+Shift+-`        | ✅     | ⛔   | ⛔          |
-| Fold current                       | `Ctrl+-`              | ✅     | ⛔   | ⛔          |
-| Unfold all                         | `Ctrl+Shift+=`        | ✅     | ⛔   | ⛔          |
-| Unfold current                     | `Ctrl+=`              | ✅     | ⛔   | ⛔          |
-| Go to next change                  | `Ctrl+Alt+Left`       | ✖      | ⛔   | `Ctrl+O`    |
-| Go to previous change              | `Ctrl+Alt+Right`      | ✅     | ⛔   | `Ctrl+I`    |
-| **G**o to Line                     | `Ctrl+G`              | ✅     | ⛔   | `:<number>` |
-| Go to File                         | `Ctrl+E`              | ✅     | ⛔   | ⛔          |
+| Show All Commands                  | `F1`                  | ✅     | ✅   | ✖           |
+| Focus Breadcrumbs                  | `Ctrl+B .`            | ✅     | ✅   | ✖           |
+| Fold all                           | `Ctrl+Shift+-`        | ✅     | ✅   | ⛔          |
+| Fold current                       | `Ctrl+-`              | ✅     | ✅   | ⛔          |
+| Unfold all                         | `Ctrl+Shift+=`        | ✅     | ✅   | ⛔          |
+| Unfold current                     | `Ctrl+=`              | ✅     | ✅   | ⛔          |
+| Go to next change                  | `Ctrl+Alt+Left`       | ✖      | ✅   | `Ctrl+O`    |
+| Go to previous change              | `Ctrl+Alt+Right`      | ✅     | ✅   | `Ctrl+I`    |
+| **G**o to Line                     | `Ctrl+G`              | ✅     | ✅   | `:<number>` |
+| Go to File                         | `Ctrl+E`              | ✅     | ✅   | ⛔          |
 | Go to Definition (dec**l**aration) | `Ctrl+L`              | ✅     | ⛔   | ✖           |
 | Go to Imp**l**ementations (usages) | `Ctrl+Shift+L`        | ✅     | ⛔   | ✖           |
 | Quick fix                          | `Alt+Enter`           | ✅     | ⛔   | ✖           |
