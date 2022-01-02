@@ -32,8 +32,8 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Fold current                       | `Ctrl+-`              | ✅     | ⛔   | ⛔          |
 | Unfold all                         | `Ctrl+Shift+=`        | ✅     | ⛔   | ⛔          |
 | Unfold current                     | `Ctrl+=`              | ✅     | ⛔   | ⛔          |
-| Go back                            | `Ctrl+Alt+Left`       | ✅     | ⛔   | `Ctrl+O`    |
-| Go forward                         | `Ctrl+Alt+Right`      | ✅     | ⛔   | `Ctrl+I`    |
+| Go to next change                  | `Ctrl+Alt+Left`       | ✖      | ⛔   | `Ctrl+O`    |
+| Go to previous change              | `Ctrl+Alt+Right`      | ✅     | ⛔   | `Ctrl+I`    |
 | **G**o to Line                     | `Ctrl+G`              | ✅     | ⛔   | `:<number>` |
 | Go to File                         | `Ctrl+E`              | ✅     | ⛔   | ⛔          |
 | Go to Definition (dec**l**aration) | `Ctrl+L`              | ✅     | ⛔   | ✖           |
@@ -43,10 +43,7 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Trigger **P**arameter hints        | `Ctrl+P`              | ✅     | ⛔   | ✖           |
 | Trigger suggests                   | `Ctrl+Space`          | ✅     | ⛔   | ✖           |
 | Run task                           | `Shift+F10`           | ✅     | ⛔   | ✖           |
-
-TODO:
-- PyCharm Switcher (PyCharm: `Ctrl+Tab`; )
-- Recent Files (PyCharm: `Ctrl+E`; )
+| Switcher                           | `Ctrl+Tab`            | ✅     | ✅   | ✖           |
 
 ### Version control
 
@@ -59,15 +56,15 @@ TODO:
 
 ## File hotkeys
 
-| Name                           | Key binding           | VSCode | IDEA | Vim   |
-| ------------------------------ | --------------------- | ------ | ---- | ----- |
-| **(K)** Compare With ...       | `Ctrl+B Ctrl+E`       | ✅     | ⛔   | ⛔    |
-| **(K)** Compare With clipboard | `Ctrl+B Ctrl+Shift+E` | ✅     | ⛔   | ⛔    |
-| **Copy Absolute** Path         | `Ctrl+Shift+C`        | ✅     | ✅   | ✖     |
-| New File                       | `Ctrl+N`          | ✅     | ⛔   | `:n`  |
-| New ...                       | `Alt+Insert`          | ✖     | ✅   |  ✖  |
-| Open File                           | `Ctrl+O`              | ✅     | ⛔   | `:e`  |
-| Save All                       | `Ctrl+S`              | ✅     | ✅   | `:wa` |
+| Name                   | Key binding           | VSCode | IDEA | Vim   |
+| ---------------------- | --------------------- | ------ | ---- | ----- |
+| Compare With ...       | `Ctrl+B Ctrl+E`       | ✅     | ⛔   | ⛔    |
+| Compare With clipboard | `Ctrl+B Ctrl+Shift+E` | ✅     | ⛔   | ⛔    |
+| **Copy Absolute** Path | `Ctrl+Shift+C`        | ✅     | ✅   | ✖     |
+| New File               | `Ctrl+N`              | ✅     | ⛔   | `:n`  |
+| New ...                | `Alt+Insert`          | ✖      | ✅   | ✖     |
+| Open File              | `Ctrl+O`              | ✅     | ⛔   | `:e`  |
+| Save All               | `Ctrl+S`              | ✅     | ✅   | `:wa` |
 
 ## Editing hotkeys
 
@@ -77,7 +74,7 @@ TODO:
 | Add Cursor Below                   | `Ctrl+Shift+Alt+Down`    | ✅     | ⛔   |
 | Toggle Line Comment                | `Ctrl+/`                 | ✅     | ✅   |
 | Cut                                | `Ctrl+X`, `Shift+Delete` | ✅     | ✅   |
-| Copy                               | `Ctrl+C`, `Ctrl+Insert` | ✅     | ✅   |
+| Copy                               | `Ctrl+C`, `Ctrl+Insert`  | ✅     | ✅   |
 | Pase                               | `Ctrl+V`, `Shift+Insert` | ✅     | ✅   |
 | Copy Line Down                     | `Ctrl+D`                 | ✅     | ⛔   |
 | Copy Line Up                       | `Ctrl+Shift+D`           | ✅     | ⛔   |
@@ -88,14 +85,14 @@ TODO:
 | Insert Line Below                  | `Ctrl+Enter`             | ✅     | ⛔   |
 | Move Line Down                     | `Alt+Down`               | ✅     | ⛔   |
 | Move Line Up                       | `Alt+Up`                 | ✅     | ⛔   |
-| Smart Move Line Down               | `Shift+Alt+Down`         | ✖     | ⛔   |
-| Smart Move Line Up                 | `Shift+Alt+Up`           | ✖     | ⛔   |
+| Smart Move Line Down               | `Shift+Alt+Down`         | ✖      | ⛔   |
+| Smart Move Line Up                 | `Shift+Alt+Up`           | ✖      | ⛔   |
 | Remove Line                        | `Ctrl+Y`                 | ✅     | ⛔   |
 | Join Lines                         | `Ctrl+J`                 | ✅     | ✅   |
 | Format Document                    | `Ctrl+Alt+F`             | ✅     | ⛔   |
-| Toggle Upper/Lower Case            | `Ctrl+Shift+U`           | ✖     | ⛔   |
-| Transform to Lower Case            | `Ctrl+U`           | ✅     | ✖   |
-| Transform to Upper Case            | `Ctrl+Shift+U`           | ✅     | ✖   |
+| Toggle Upper/Lower Case            | `Ctrl+Shift+U`           | ✖      | ⛔   |
+| Transform to Lower Case            | `Ctrl+U`                 | ✅     | ✖    |
+| Transform to Upper Case            | `Ctrl+Shift+U`           | ✅     | ✖    |
 | Transform to Snake Case            | `Ctrl+Alt+Shift+U`       | ✅     | ⛔   |
 | Select All                         | `Ctrl+A`                 | ✅     | ✅   |
 | Expand Selection (Select **W**ord) | `Ctrl+W`                 | ✅     | ✅   |
@@ -103,20 +100,20 @@ TODO:
 
 ### Search and Replace
 
-| Name                                                 | Key binding        | VSCode | IDEA |
-| ---------------------------------------------------- | ------------------ | ------ | ---- |
-| **F**ind in files                                    | `Ctrl+Shift+F`     | ✅     | ⛔   |
-| **R**eplace in files                                 | `Ctrl+Shift+R`     | ✅     | ⛔   |
-| **F**ind                                             | `Ctrl+F`           | ✅     | ✅   |
-| Find Next                                            | `F3`               | ✅     | ⛔   |
-| Find Prev                                            | `Shift+F3`         | ✅     | ⛔   |
-| Add Selection (Cursor) to Next Find Match (**J**oin next match)            | `Alt+J`            | ⛔     | ⛔   |
-| **R**eplace                                          | `Ctrl+R`           | ✅     | ⛔   |
-| Search Editor: Add Selection (Cursor) to All Matches | `Ctrl+Alt+Shift+J` | ✅     | ⛔   |
-| Search Editor: Toggle match **C**ase                 | `Alt+C`            | ✅     | ⛔   |
-| Search Editor: Toggle match **w**hole Words          | `Alt+W`            | ✅     | ⛔   |
-| Search Editor: Toggle match **R**egexp               | `Alt+R`            | ✅     | ⛔   |
-| Search Editor: Match in **S**election                | `Alt+S`            | ✅     | ⛔   |
+| Name                                                            | Key binding        | VSCode | IDEA |
+| --------------------------------------------------------------- | ------------------ | ------ | ---- |
+| **F**ind in files                                               | `Ctrl+Shift+F`     | ✅     | ⛔   |
+| **R**eplace in files                                            | `Ctrl+Shift+R`     | ✅     | ⛔   |
+| **F**ind                                                        | `Ctrl+F`           | ✅     | ✅   |
+| Find Next                                                       | `F3`               | ✅     | ⛔   |
+| Find Prev                                                       | `Shift+F3`         | ✅     | ⛔   |
+| Add Selection (Cursor) to Next Find Match (**J**oin next match) | `Alt+J`            | ✅     | ⛔   |
+| **R**eplace                                                     | `Ctrl+R`           | ✅     | ⛔   |
+| Search Editor: Add Selection (Cursor) to All Matches            | `Ctrl+Alt+Shift+J` | ✅     | ⛔   |
+| Search Editor: Toggle match **C**ase                            | `Alt+C`            | ✅     | ⛔   |
+| Search Editor: Toggle match whole **W**ords                     | `Alt+W`            | ✅     | ⛔   |
+| Search Editor: Toggle match **R**egexp                          | `Alt+R`            | ✅     | ⛔   |
+| Search Editor: Match in **S**election                           | `Alt+S`            | ✅     | ⛔   |
 
 ## View hotkeys
 
@@ -139,10 +136,10 @@ For Vim prefix shortcut is `Ctrl+W` instead of `Ctrl+B`
 | View: Move Tab into Group Right  | `Ctrl+B Ctrl+Shift+L`            | ✅     | ⛔   | ✖    | ✖    |
 | View: Next Tab                   | `Ctrl+PageUp`, `Ctrl+B Ctrl+L`   | ✅     | ⛔   | ⛔   | `gt` |
 | View: Previous Tab               | `Ctrl+PageDown`, `Ctrl+B Ctrl+H` | ✅     | ⛔   | ⛔   | `gT` |
-| View: Split **Verically**        | `Ctrl+B Shift+-`                       | ✅     | ⛔   | ⛔   | ⛔   |
+| View: Split **Verically**        | `Ctrl+B Shift+-`                 | ✅     | ⛔   | ⛔   | ⛔   |
 | View: Split **Horizontally**     | `Ctrl+B -`                       | ✅     | ⛔   | ⛔   | ⛔   |
 | View: Toggle Line Wrap           | `Ctrl+B Alt+Z`                   | ✅     | ⛔   | ✖    | ✖    |
-| View: Toggle Side Bar visibility | `Ctrl+B Ctrl+B`                  | ✅     | ⛔   | ✖    | ✖    |
+| View: Toggle Side Bar visibility | `Ctrl+B Alt+B`                   | ✅     | ⛔   | ✖    | ✖    |
 | View: Reopen last closed tab     | `Ctrl+Shift+T`                   | ✅     | ⛔   | ✖    | ✖    |
 | View: Increase Group Height      | `Ctrl+B Shift+K`                 | ✅     | ⛔   | ⛔   | ⛔   |
 | View: Increase Group Width       | `Ctrl+B Shift+L`                 | ✅     | ⛔   | ⛔   | ⛔   |
@@ -153,12 +150,12 @@ For Vim prefix shortcut is `Ctrl+W` instead of `Ctrl+B`
 
 #### VSCode
 
-| Name                             | Key binding                      |
-| -------------------------------- | -------------------------------- |
-| Hide panels | `Ctrl+B Alt+B` |
-| Sources | `Alt+1`, `Ctrl+B Alt+E` |
-| Search | `Alt+2`, `Ctrl+Shift+F` |
-| Git | `Alt+3`, `Ctrl+K` |
-| Run & Debug | `Alt+4` |
-| Extensions | `Alt+5` |
-| Terminal | `Alt+9`, `Ctrl+~` |
+| Name        | Key binding             |
+| ----------- | ----------------------- |
+| Hide panels | `Ctrl+B Alt+B`          |
+| Sources     | `Alt+1`, `Ctrl+B Alt+E` |
+| Search      | `Alt+2`, `Ctrl+Shift+F` |
+| Git         | `Alt+3`, `Ctrl+K`       |
+| Run & Debug | `Alt+4`                 |
+| Extensions  | `Alt+5`                 |
+| Terminal    | `Alt+9`, `Ctrl+~`       |
