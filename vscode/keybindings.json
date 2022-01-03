@@ -242,7 +242,7 @@
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+k",
+    "key": "ctrl+b alt+k",
     "command": "workbench.view.scm",
     "when": "workbench.scm.active"
   },
@@ -871,7 +871,7 @@
     "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
   },
   {
-    "key": "alt+5",
+    "key": "alt+8",
     "command": "workbench.view.extensions",
     "when": "viewContainer.workbench.view.extensions.enabled"
   },
@@ -879,5 +879,45 @@
     "key": "ctrl+shift+x",
     "command": "-workbench.view.extensions",
     "when": "viewContainer.workbench.view.extensions.enabled"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleSearchEditorRegex",
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleSearchEditorRegex",
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "workbench.action.terminal.toggleFindRegex",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+r",
+    "command": "-workbench.action.terminal.toggleFindRegex",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleFindRegex",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleFindRegex",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+x",
+    "command": "toggleSearchRegex",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleSearchRegex",
+    "when": "searchViewletFocus"
   }
 ]
