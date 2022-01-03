@@ -98,6 +98,8 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Select All                         | `Ctrl+A`                 | ✅     | ✅   |
 | Expand Selection (Select **W**ord) | `Ctrl+W`                 | ✅     | ✅   |
 | Shrink Selection                   | `Ctrl+Shift+W`           | ✅     | ✅   |
+| Indent right                       | `Ctrl+]`                 | ✅     | ✅   |
+| Indent left                        | `Ctrl+[`                 | ✅     | ✅   |
 
 ### Search and Replace
 
