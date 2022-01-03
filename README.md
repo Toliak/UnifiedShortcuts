@@ -89,7 +89,7 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Smart Move Line Down               | `Shift+Alt+Down`         | ✖      | ✅   |
 | Smart Move Line Up                 | `Shift+Alt+Up`           | ✖      | ✅   |
 | Remove Line                        | `Ctrl+Y`                 | ✅     | ✅   |
-| Join Lines                         | `Ctrl+J`                 | ✅     | ✅   |
+| Join Lines                         | `Ctrl+Shift+J`           | ✅     | ✅   |
 | Format Document                    | `Ctrl+Alt+F`             | ✅     | ✅   |
 | Toggle Upper/Lower Case            | `Ctrl+Shift+U`           | ✖      | ✅   |
 | Transform to Lower Case            | `Ctrl+U`                 | ✅     | ✖    |

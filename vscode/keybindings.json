@@ -13,7 +13,7 @@
     "command": "-workbench.action.togglePanel"
   },
   {
-    "key": "ctrl+j",
+    "key": "ctrl+shift+j",
     "command": "editor.action.joinLines"
   },
   {
