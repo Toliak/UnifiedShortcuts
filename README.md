@@ -124,30 +124,30 @@ For Vim prefix shortcut is `Ctrl+W` instead of `Ctrl+B`
 
 | Name                             | Key binding                      | VSCode | IDEA | TMux | Vim  |
 | -------------------------------- | -------------------------------- | ------ | ---- | ---- | ---- |
-| View: **Close** Tab              | `Ctrl+F4`, `Ctrl+B X`            | ✅     | ✅   | ⛔   | ⛔   |
-| View: Focus Group **Below**      | `Ctrl+B J`                       | ✅     | ✖    | ⛔   | ⛔   |
-| View: Focus Group **Above**      | `Ctrl+B K`                       | ✅     | ✖    | ⛔   | ⛔   |
-| View: Focus Group **Left**       | `Ctrl+B H`                       | ✅     | ✅   | ⛔   | ⛔   |
-| View: Focus Group **Right**      | `Ctrl+B L`                       | ✅     | ✅   | ⛔   | ⛔   |
+| View: **Close** Tab              | `Ctrl+F4`, `Ctrl+B X`            | ✅     | ✅   | ✅   | ⛔   |
+| View: Focus Group **Below**      | `Ctrl+B J`                       | ✅     | ✖    | ✅   | ⛔   |
+| View: Focus Group **Above**      | `Ctrl+B K`                       | ✅     | ✖    | ✅   | ⛔   |
+| View: Focus Group **Left**       | `Ctrl+B H`                       | ✅     | ✅   | ✅   | ⛔   |
+| View: Focus Group **Right**      | `Ctrl+B L`                       | ✅     | ✅   | ✅   | ⛔   |
 | View: Swap Group Below           | `Ctrl+B Ctrl+Shift+[`            | ✅     | ✖    | ✖    | ⛔   |
 | View: Swap Group Above           | `Ctrl+B Ctrl+Shift+]`            | ✅     | ✖    | ✖    | ⛔   |
-| View: Swap Group Left            | `Ctrl+B Shift+[`                 | ✅     | ✖    | ⛔   | ⛔   |
-| View: Swap Group Right           | `Ctrl+B Shift+]`                 | ✅     | ✖    | ⛔   | ⛔   |
+| View: Swap Group Left            | `Ctrl+B Shift+[`                 | ✅     | ✖    | ✅   | ⛔   |
+| View: Swap Group Right           | `Ctrl+B Shift+]`                 | ✅     | ✖    | ✅   | ⛔   |
 | View: Move Tab into Group Below  | `Ctrl+B Ctrl+Shift+J`            | ✅     | ✖    | ✖    | ✖    |
 | View: Move Tab into Group Above  | `Ctrl+B Ctrl+Shift+K`            | ✅     | ✖    | ✖    | ✖    |
 | View: Move Tab into Group Left   | `Ctrl+B Ctrl+Shift+H`            | ✅     | ✖    | ✖    | ✖    |
 | View: Move Tab into Group Right  | `Ctrl+B Ctrl+Shift+L`            | ✅     | ✖    | ✖    | ✖    |
-| View: Next Tab                   | `Ctrl+PageUp`, `Ctrl+B Ctrl+L`   | ✅     | ✅   | ⛔   | `gt` |
-| View: Previous Tab               | `Ctrl+PageDown`, `Ctrl+B Ctrl+H` | ✅     | ✅   | ⛔   | `gT` |
-| View: Split **Verically**        | `Ctrl+B Shift+-`                 | ✅     | ✅   | ⛔   | ⛔   |
-| View: Split **Horizontally**     | `Ctrl+B -`                       | ✅     | ✅   | ⛔   | ⛔   |
+| View: Next Tab                   | `Ctrl+PageUp`, `Ctrl+B Ctrl+L`   | ✅     | ✅   | ✅   | `gt` |
+| View: Previous Tab               | `Ctrl+PageDown`, `Ctrl+B Ctrl+H` | ✅     | ✅   | ✅   | `gT` |
+| View: Split **Verically**        | `Ctrl+B Shift+-`                 | ✅     | ✅   | ✅   | ⛔   |
+| View: Split **Horizontally**     | `Ctrl+B -`                       | ✅     | ✅   | ✅   | ⛔   |
 | View: Toggle Line Wrap           | `Ctrl+B Alt+Z`                   | ✅     | ✅   | ✖    | ✖    |
 | View: Toggle Side Bar visibility | `Ctrl+B Alt+B`                   | ✅     | ✅   | ✖    | ✖    |
 | View: Reopen last closed tab     | `Ctrl+Shift+T`                   | ✅     | ✅   | ✖    | ✖    |
-| View: Increase Group Height      | `Ctrl+B Shift+K`                 | ✅     | ✅   | ⛔   | ⛔   |
-| View: Increase Group Width       | `Ctrl+B Shift+L`                 | ✅     | ✅   | ⛔   | ⛔   |
-| View: Decrease Group Height      | `Ctrl+B Shift+J`                 | ✅     | ✅   | ⛔   | ⛔   |
-| View: Decrease Group Width       | `Ctrl+B Shift+H`                 | ✅     | ✅   | ⛔   | ⛔   |
+| View: Increase Group Height      | `Ctrl+B Shift+K`                 | ✅     | ✅   | ✅   | ⛔   |
+| View: Increase Group Width       | `Ctrl+B Shift+L`                 | ✅     | ✅   | ✅   | ⛔   |
+| View: Decrease Group Height      | `Ctrl+B Shift+J`                 | ✅     | ✅   | ✅   | ⛔   |
+| View: Decrease Group Width       | `Ctrl+B Shift+H`                 | ✅     | ✅   | ✅   | ⛔   |
 
 ### Panels
 
