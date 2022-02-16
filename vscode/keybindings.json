@@ -919,5 +919,9 @@
     "key": "alt+r",
     "command": "-toggleSearchRegex",
     "when": "searchViewletFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "explorer.newFile"
   }
 ]
