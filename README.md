@@ -25,7 +25,7 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Zoom Reset                         | `Ctrl+B Ctrl+Shift+9` | ✅     | ✅   | ✖           |
 | Zoom In                            | `Ctrl+B Ctrl+Shift+=` | ✅     | ✅   | ✖           |
 | Zoom Out                           | `Ctrl+B Ctrl+Shift+-` | ✅     | ✅   | ✖           |
-| **Q**uick Documentation            | `Ctrl+Q`              | ⛔     | ✅   | ✖           |
+| **Q**uick Documentation            | `Ctrl+Q`              | ✅     | ✅   | ✖           |
 | Show All Commands                  | `F1`                  | ✅     | ✅   | ✖           |
 | Focus Breadcrumbs                  | `Ctrl+B .`            | ✅     | ✅   | ✖           |
 | Fold all                           | `Ctrl+Shift+-`        | ✅     | ✅   | ⛔          |
