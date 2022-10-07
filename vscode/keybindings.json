@@ -933,5 +933,17 @@
     "key": "ctrl+k ctrl+i",
     "command": "-editor.action.showHover",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+b c",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+b ctrl+c",
+    "command": "workbench.action.newWindow"
   }
 ]
