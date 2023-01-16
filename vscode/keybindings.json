@@ -799,10 +799,6 @@
     "command": "-workbench.action.moveEditorToPreviousGroup"
   },
   {
-    "key": "ctrl+alt+left",
-    "command": "workbench.action.navigateToLastEditLocation"
-  },
-  {
     "key": "ctrl+k ctrl+q",
     "command": "-workbench.action.navigateToLastEditLocation"
   },
@@ -935,15 +931,23 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+b c",
-    "command": "workbench.action.files.newUntitledFile"
+    "key": "ctrl+alt+left",
+    "command": "workbench.action.navigateBack",
+    "when": "canNavigateBack"
   },
   {
-    "key": "ctrl+n",
-    "command": "-workbench.action.files.newUntitledFile"
+    "key": "ctrl+alt+-",
+    "command": "-workbench.action.navigateBack",
+    "when": "canNavigateBack"
   },
   {
-    "key": "ctrl+b ctrl+c",
-    "command": "workbench.action.newWindow"
+    "key": "ctrl+alt+right",
+    "command": "workbench.action.navigateForward",
+    "when": "canNavigateForward"
+  },
+  {
+    "key": "ctrl+shift+-",
+    "command": "-workbench.action.navigateForward",
+    "when": "canNavigateForward"
   }
 ]
