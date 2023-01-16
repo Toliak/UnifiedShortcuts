@@ -32,8 +32,8 @@ First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 | Fold current                       | `Ctrl+-`              | ✅     | ✅   | ⛔          |
 | Unfold all                         | `Ctrl+Shift+=`        | ✅     | ✅   | ⛔          |
 | Unfold current                     | `Ctrl+=`              | ✅     | ✅   | ⛔          |
-| Go to next change                  | `Ctrl+Alt+Left`       | ✖      | ✅   | `Ctrl+O`    |
-| Go to previous change              | `Ctrl+Alt+Right`      | ✅     | ✅   | `Ctrl+I`    |
+| Go to previous change              | `Ctrl+Alt+Left`       | ✅      | ✅   | `Ctrl+O`    |
+| Go to next change                  | `Ctrl+Alt+Right`      | ✅     | ✅   | `Ctrl+I`    |
 | **G**o to Line                     | `Ctrl+G`              | ✅     | ✅   | `:<number>` |
 | Go to File                         | `Ctrl+E`              | ✅     | ✅   | ⛔          |
 | Recent Files                       | `Ctrl+;`              | ✖      | ✅   | ✖           |
