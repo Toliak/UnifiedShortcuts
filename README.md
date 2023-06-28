@@ -1,3 +1,7 @@
+**DEPRECATED.**
+
+Project now is a part of [MakeConfigurationEasier](https://github.com/Toliak/MCE)
+
 # UnifiedShortcuts
 
 Unified keyboard Shortcuts table for VSCode and IntelliJ-based IDEs.
@@ -11,7 +15,7 @@ Symbols definitions:
 - ⛔: Available and **not** configured
 
 Key binding meaning.
-For example, `Ctrl+Shift+H` means pressing `Ctrl`, `Shift` and `H` key simultaniously.
+For example, `Ctrl+Shift+H` means pressing `Ctrl`, `Shift` and `H` key simultaneously.
 In other hand, `Ctrl+B Ctrl+H` means a sequence of shortcuts.
 First (prefix) binding is `Ctrl+B` and the second is `Ctrl+H`.
 
